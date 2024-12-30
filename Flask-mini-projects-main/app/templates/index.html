@@ -1,0 +1,116 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardio Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cardio Predictor</h1>
+        <form form method="POST" action="/predict">
+            <label for="age">Id:</label>
+            <input type="number" step="any" id="id" name="id" required>
+            <label for="age">Age:</label>
+            <input type="number" step="any" id="age" name="age" required>
+
+            <label for="gender">Gender (1 for Male, 2 for Female):</label>
+            <input type="number" step="any" id="gender" name="gender" required>
+
+            <label for="height">Height (in cm):</label>
+            <input type="number" step="any" id="height" name="height" required>
+
+            <label for="weight">Weight (in kg):</label>
+            <input type="number" step="any" id="weight" name="weight" required>
+
+            <label for="ap_hi">Systolic Blood Pressure:(High)</label>
+            <input type="number" step="any" id="ap_hi" name="ap_hi" required>
+
+            <label for="ap_lo">Diastolic Blood Pressure:(Low)</label>
+            <input type="number" step="any" id="ap_lo" name="ap_lo" required>
+
+            <label for="cholesterol">Cholesterol (1-Normal, 2-Above Normal, 3-Well Above Normal):</label>
+            <input type="number" step="any" id="cholesterol" name="cholesterol" required>
+
+            <label for="gluc">Glucose (1-Normal, 2-Above Normal, 3-Well Above Normal):</label>
+            <input type="number" step="any" id="gluc" name="gluc" required>
+
+            <label for="smoke">Smoking (1 for Yes, 0 for No):</label>
+            <input type="number" step="any" id="smoke" name="smoke" required>
+
+            <label for="alco">Alcohol Intake (1 for Yes, 0 for No):</label>
+            <input type="number" step="any" id="alco" name="alco" required>
+
+            <label for="active">Active Lifestyle (1 for Yes, 0 for No):</label>
+            <input type="number" step="any" id="active" name="active" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+    </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardio Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cardio Predictor</h1>
+        <form method="POST" action="/predict">
+            <label for="id">Id:</label>
+            <input type="number" id="id" name="id" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">Gender (1 for Male, 2 for Female):</label>
+            <input type="number" id="gender" name="gender" required>
+
+            <label for="height">Height (in cm):</label>
+            <input type="number" id="height" name="height" required>
+
+            <label for="weight">Weight (in kg):</label>
+            <input type="number" id="weight" name="weight" required>
+
+            <label for="ap_hi">Systolic Blood Pressure (High):</label>
+            <input type="number" id="ap_hi" name="ap_hi" required>
+
+            <label for="ap_lo">Diastolic Blood Pressure (Low):</label>
+            <input type="number" id="ap_lo" name="ap_lo" required>
+
+            <label for="cholesterol">Cholesterol (1-Normal, 2-Above Normal, 3-Well Above Normal):</label>
+            <input type="number" id="cholesterol" name="cholesterol" required>
+
+            <label for="gluc">Glucose (1-Normal, 2-Above Normal, 3-Well Above Normal):</label>
+            <input type="number" id="gluc" name="gluc" required>
+
+            <label for="smoke">Smoking (1 for Yes, 0 for No):</label>
+            <input type="number" id="smoke" name="smoke" required>
+
+            <label for="alco">Alcohol Intake (1 for Yes, 0 for No):</label>
+            <input type="number" id="alco" name="alco" required>
+
+            <label for="active">Active Lifestyle (1 for Yes, 0 for No):</label>
+            <input type="number" id="active" name="active" required>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+
+</html>
